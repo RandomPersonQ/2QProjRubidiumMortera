@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.linebreak{
+padding: 15px 0 0 0;
+}
+
+body{
+background-color: rgb(9, 40, 51);
+}
+
+header{
+display: flex;
+height: 25px;
+width: auto;
+border-bottom: 4px rgb(32, 87, 107) solid;
+background-color: rgb(197, 255, 229);
+padding: 15px;
+}
+
+header .infotitle{
+color: rgb(9, 40, 51);
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+.author-name-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20px;
+width: 650px;
+padding: 0 20px;
+background-color: rgb(255, 255, 255);
+}
+
+.author-name-header .child1{
+color: rgb(9, 40, 51);
+font-family: Segoe UI;
+font-weight: bold;
+font-size: 9px;
+font-style: italic;
+}
+
+.grid1
+{
+display: grid;
+grid-template-columns: auto auto;
+margin-bottom: 0;
+}
+
+.grid1 .image1{
+
+height: 300px;
+width: 450px;
+margin: 0 10px;
+border: 1.5px rgb(197, 255, 229) solid;
+}
+
+.grid1 .paragraph1{
+margin-right: 15px;
+color: rgb(210, 224, 226);
+font-family: monospace;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.grid1 .paragraph1 p{
+text-indent: 40px;
+}
+
+.paragraph2{
+margin-right: 15px;
+color: rgb(210, 224, 226);
+font-family: monospace;
+text-align: justify;
+text-justify: inter-word;
+text-indent: 40px;
+}
+
+.paragraph2 p{
+margin-top: 5px;
+margin-bottom: 10px;
+color: rgb(210, 224, 226);
+font-family: monospace;
+text-align: justify;
+text-justify: inter-word;
+text-indent: 40px;
+}
+
+footer{
+display: flex;
+justify-content: center;
+grid-template-columns: repeat(9, auto);
+}
+
+footer .page-selector {
+padding: 0 15px;
+}
+
+footer .page-selector a{
+background-color: rgb(210, 224, 226);
+padding: 2px 2px;
+color:rgb(9, 40, 51);
+border:2px solid rgb(9, 40, 51);
+font-family: Gill Sans MT;
+font-size: 17.5px;
+}
+
+.footer1{
+display: flex;
+height: 15px;
+width: auto;
+border-bottom: 0px rgb(32, 87, 107) solid;
+background-color: rgb(19, 59, 73);
+color: rgb(9, 40, 51);
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+.footer2{
+display: flex;
+height: 20px;
+width: auto;
+border-bottom: 0px rgb(32, 87, 107) solid;
+background-color: rgb(37, 86, 104);
+color: rgb(9, 40, 51);
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+.footer3{
+justify-content: center;
+display: flex;
+height: 48px;
+width: auto;
+border-bottom: 0px rgb(50, 108, 129) solid;
+background-color: rgb(65, 117, 136);
+color: rgb(9, 40, 51);
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+.footer3-1{
+justify-content: center;
+display: flex;
+height: 12.5px;
+width: auto;
+border-bottom: 0px rgb(50, 108, 129) solid;
+background-color: rgb(65, 117, 136);
+color: rgb(9, 40, 51);
+font-family: Tahoma;
+font-weight: bold;
+font-size: 20px;
+}
+
+.footer3 .bottom{
+padding: 0;
+color:rgb(9, 40, 51);
+font-family: Gill Sans MT;
+font-size: 15px;
+}
+
